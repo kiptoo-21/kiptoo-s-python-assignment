@@ -1,0 +1,7 @@
+country=["kenya","uganda","tanzania"]
+nationality=input("enter country:").lower
+age=int(input("enter age:"))
+if nationality in country and  age>18:
+  print("eligible")
+else:
+    print("not eligible")
